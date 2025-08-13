@@ -3,7 +3,7 @@ name: Daily X Posts
 on:
   schedule:
     # Run at 9:00 AM UTC (adjust for your timezone)
-    - cron: '0 9 * * *'
+    - cron: '0 10 * * *'
     # Run at 9:00 PM UTC (adjust for your timezone)  
     - cron: '0 21 * * *'
   workflow_dispatch: # Allow manual trigger for testing

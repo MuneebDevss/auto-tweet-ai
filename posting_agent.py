@@ -29,10 +29,8 @@ class ContentGenerator:
             # Determine time-based context
             current_hour = datetime.now().hour
             if current_hour < 12:
-                time_prefix = "Good morning! Start your day with"
                 time_hashtag = "#MorningMotivation"
             else:
-                time_prefix = "Evening insights:"
                 time_hashtag = "#EveningThoughts"
             
             prompt = f"""
