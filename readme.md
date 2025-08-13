@@ -37,6 +37,12 @@ Click the "Fork" button to create your own copy.
    - Bearer Token
    - Consumer Key & Secret
    - Access Token & Secret
+   
+3. Authentication Settings
+    - ✅ OAuth 1.0a - Enable this
+    - ✅ OAuth 2.0 - Can be enabled but not required
+    - Callback URI: http://localhost:3000/callback (placeholder)
+    - Website URL: https://github.com/yourusername/your-repo
 
 ### 3. Configure Repository Secrets
 

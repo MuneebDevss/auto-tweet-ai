@@ -10,8 +10,7 @@ on:
 
 jobs:
   post-to-x:
-    runs-on: ubuntu-latest
-    environment: production
+    runs-on: ubuntu-latest    
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
