@@ -124,7 +124,7 @@ class GitHubActionsPostingAgent:
             posting_time = self.config.get('posting_time', '09:00')
             
             # Determine if this is morning or evening post
-            time_context = "morning" if posting_time.startswith('09') or posting_time.startswith('0') else "evening"
+            time_context = "morning" if posting_time.startswith('10') or posting_time.startswith('0') else "evening"
             
             logger.info(f"Starting {time_context} content generation for topic: {topic}")
             
