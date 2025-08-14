@@ -5,7 +5,7 @@ on:
     # Run at 9:00 AM UTC (adjust for your timezone)
     - cron: '40 5 * * *'
     # Run at 9:00 PM UTC (adjust for your timezone)  
-    - cron: '5 21 * * *'
+    - cron: '5 16 * * *'
   workflow_dispatch: # Allow manual trigger for testing
 
 jobs:
